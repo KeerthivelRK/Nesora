@@ -1,0 +1,89 @@
+[
+  {
+    "id": "cafe-menu",
+    "title": "Café online menu",
+    "year": 2026,
+    "tags": [
+      "website",
+      "menu"
+    ],
+    "summary": "A mobile-friendly menu that the owner updates in minutes.",
+    "description": "Sample project. QR-code menu with categories, prices and daily specials, plus an admin page for staff to edit items without a developer.",
+    "stack": [
+      "React",
+      "Supabase"
+    ],
+    "link": "#",
+    "mock": "cafe"
+  },
+  {
+    "id": "gym-booking",
+    "title": "Gym class booking",
+    "year": 2026,
+    "tags": [
+      "booking",
+      "mobile"
+    ],
+    "summary": "Members book classes and see availability in real time.",
+    "description": "Sample project. Class timetable, member sign-in, booking limits per class and a dashboard for trainers to view attendance.",
+    "stack": [
+      "React Native",
+      "PostgreSQL",
+      "Supabase"
+    ],
+    "link": "#",
+    "mock": "gym"
+  },
+  {
+    "id": "supermarket-catalogue",
+    "title": "Supermarket catalogue",
+    "year": 2025,
+    "tags": [
+      "website",
+      "ordering"
+    ],
+    "summary": "A searchable product catalogue with weekly offers.",
+    "description": "Sample project. Products by category, stock status, offer banners and an order-by-phone or WhatsApp button for local customers.",
+    "stack": [
+      "React",
+      "PostgreSQL"
+    ],
+    "link": "#",
+    "mock": "market"
+  },
+  {
+    "id": "salon-appointments",
+    "title": "Salon appointments",
+    "year": 2025,
+    "tags": [
+      "booking",
+      "website"
+    ],
+    "summary": "Clients pick a service, stylist and time slot online.",
+    "description": "Sample project. Service list with durations, stylist calendars, automatic slot blocking and an admin view of the day's appointments.",
+    "stack": [
+      "React",
+      "Supabase"
+    ],
+    "link": "#",
+    "mock": "salon"
+  },
+  {
+    "id": "restaurant-ordering",
+    "title": "Restaurant ordering",
+    "year": 2025,
+    "tags": [
+      "ordering",
+      "website"
+    ],
+    "summary": "Online ordering for pickup and delivery with a kitchen dashboard.",
+    "description": "Sample project. Cart, checkout, order status updates and a live dashboard where the kitchen accepts and completes orders.",
+    "stack": [
+      "React",
+      "Supabase",
+      "PostgreSQL"
+    ],
+    "link": "#",
+    "mock": "restaurant"
+  }
+]

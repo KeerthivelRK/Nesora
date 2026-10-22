@@ -1,0 +1,57 @@
+{
+  "name": "NESORA DIGITAL",
+  "role": "Websites and mobile apps for local businesses",
+  "intro": "Affordable, modern and easy-to-use digital tools for supermarkets, cafés, restaurants, gyms, salons and other small businesses.",
+  "email": "hello@example.com",
+  "about": "We develop affordable, modern, and user-friendly websites and mobile applications for local businesses that don't have an online presence yet, or need to improve their existing digital services. Using AI-assisted development tools, we build each solution around the needs of your business while keeping costs low.",
+  "services": [
+    {
+      "title": "Responsive websites",
+      "text": "Fast websites that look good on phones, tablets and desktops.",
+      "icon": "web"
+    },
+    {
+      "title": "Catalogues & online menus",
+      "text": "Show your products or dishes and update them yourself.",
+      "icon": "menu"
+    },
+    {
+      "title": "Booking systems",
+      "text": "Let customers book classes, appointments and tables online.",
+      "icon": "booking"
+    },
+    {
+      "title": "Ordering platforms",
+      "text": "Take orders for pickup or delivery without paying marketplace fees.",
+      "icon": "order"
+    },
+    {
+      "title": "Admin dashboards",
+      "text": "Manage orders, bookings, products and customers in one place.",
+      "icon": "dash"
+    },
+    {
+      "title": "Mobile applications",
+      "text": "Android and iOS apps built with React Native.",
+      "icon": "mobile"
+    },
+    {
+      "title": "Deployment & domain setup",
+      "text": "We put your site online and connect your own web address.",
+      "icon": "deploy"
+    },
+    {
+      "title": "Maintenance & support",
+      "text": "Updates, fixes and technical help whenever you need them.",
+      "icon": "support"
+    }
+  ],
+  "skills": [
+    "React",
+    "JavaScript",
+    "Supabase",
+    "PostgreSQL",
+    "React Native",
+    "AI-assisted development"
+  ]
+}

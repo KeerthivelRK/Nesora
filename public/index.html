@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NESORA DIGITAL — Websites &amp; apps for local businesses</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="#top"><span class="mark">N</span><span id="brandName">NESORA DIGITAL</span></a>
+  <nav><a href="#about">What we do</a><a href="#work">Work</a><a href="#contact">Contact</a></nav>
+  <button id="theme" class="ghost" aria-label="Switch color theme">Dark mode</button>
+</header>
+
+<main id="top">
+  <div class="hero-wrap">
+    <div class="hero-art" id="heroArt" aria-hidden="true"></div>
+    <section class="hero">
+      <div class="glass">
+        <span class="eyebrow">Web &amp; mobile app studio</span>
+        <h1 id="name">NESORA DIGITAL</h1>
+        <p class="role" id="role"></p>
+        <p class="intro" id="intro"></p>
+        <div class="cta">
+          <a class="btn" href="#contact">Get a free quote</a>
+          <a class="btn alt" href="#work">See our work</a>
+        </div>
+        <ul class="pills"><li>Websites</li><li>Booking</li><li>Ordering</li><li>Mobile apps</li></ul>
+      </div>
+    </section>
+  </div>
+
+  <section id="about">
+    <h2>What we do</h2>
+    <p class="lead" id="aboutText"></p>
+    <div class="slider" id="slider" role="region" aria-roledescription="carousel" aria-label="Our services" tabindex="0">
+      <div class="track" id="track"></div>
+      <div class="controls">
+        <button class="ghost" id="prev" aria-label="Previous service">&larr;</button>
+        <div class="dots" id="dots"></div>
+        <button class="ghost" id="next" aria-label="Next service">&rarr;</button>
+      </div>
+    </div>
+    <h3 class="sub">Technology we use</h3>
+    <div id="skills" class="tech"></div>
+  </section>
+
+  <section id="work">
+    <div class="head">
+      <h2>Sample projects <span id="count" class="muted"></span></h2>
+      <input id="search" type="search" placeholder="Search projects" aria-label="Search projects">
+    </div>
+    <div id="filters" class="chips" role="group" aria-label="Filter by category"></div>
+    <div id="grid" class="grid" aria-live="polite"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Get a free quote</h2>
+    <p class="lead">Tell us about your business and what you need. We reply within two working days.</p>
+    <form id="form" novalidate>
+      <label>Name <input name="name" autocomplete="name" required><small data-for="name"></small></label>
+      <label>Email <input name="email" type="email" autocomplete="email" required><small data-for="email"></small></label>
+      <label>Message <textarea name="message" rows="5" required></textarea><small data-for="message"></small></label>
+      <input name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn" id="send" type="submit">Send message</button>
+      <p id="status" role="status"></p>
+    </form>
+  </section>
+</main>
+
+<dialog id="modal"><article id="modalBody"></article><button class="ghost" id="close">Close</button></dialog>
+<footer>© <span id="year"></span> <span id="foot"></span></footer>
+<script src="app.js"></script>
+</body>
+</html>
