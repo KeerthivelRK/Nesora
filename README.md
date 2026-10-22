@@ -11,3 +11,4 @@ Frontend: HTML/CSS/vanilla JS (public/). Backend: Node + Express with JSON-file 
 
 ## API
 GET /api/profile · GET /api/projects?tag=&q= · GET /api/projects/:id · POST /api/contact · GET /api/messages (admin)
+"# Nesora" 
